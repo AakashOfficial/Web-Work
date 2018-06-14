@@ -36,9 +36,8 @@ if($number1 > $number2 ){
 	if($number2 > $number3){
 		echo "<script>alert('Number $number2 is Greater');</script>";
 	}else{
-		if($number3 > $number1){
-			echo "<script>alert('Number $number3 is Greater');</script>";
-		}
+		echo "<script>alert('Number $number3 is Greater');</script>";
+		
 	}
 }	
 ?>
