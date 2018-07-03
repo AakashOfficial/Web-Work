@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Skew Tile Navigation</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        .navskew li a{
+    width:120px;
+    height:100px;
+    display:inline-block;
+    position:relative;
+    transition:all 0.4s;
+    color:#fff;
+}
+.navskew li a:hover{transform: scale(1.1, 1.1);}
+.skewblock{
+    position:absolute;
+    width:120px;
+    height:100px;
+    display:inline-block;   
+    transform: skew(-30deg, 0deg);
+    background-color:#333;
+}
+.navlabel{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+}
+    </style>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+		    <ul class="list-inline navskew">
+            <li><a href="#"><span class="skewblock"></span><span class="navlabel">Menu link contentn</span></a></li>
+            <li><a href="#"><span class="skewblock"></span><span class="navlabel">Menu link contentn</span></a></li>
+            <li><a href="#"><span class="skewblock"></span><span class="navlabel">Menu link contentn</span></a></li>
+            <li><a href="#"><span class="skewblock"></span><span class="navlabel">Menu link contentn</span></a></li>
+            <li><a href="#"><span class="skewblock"></span><span class="navlabel">Menu link contentn</span></a></li>
+            <li><a href="#"><span class="skewblock"></span><span class="navlabel">Menu link contentn</span></a></li>
+            <li><a href="#"><span class="skewblock"></span><span class="navlabel">Menu link contentn</span></a></li>
+            </ul>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
