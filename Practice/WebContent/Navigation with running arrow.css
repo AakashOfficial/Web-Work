@@ -1,0 +1,113 @@
+body{
+    margin:0;
+    padding:0;
+    background:#ccc;
+    background-size:cover;
+}
+header{
+    background:#00d3ff;
+    font-size:30px;
+    font-weight: bold;
+    text-align:center;
+    line-height:80px;
+    height:90px;
+    border-radius:0 0 100% 100% ;
+    position:relative;
+    z-index: 7;
+}
+nav{
+    padding:0;
+    margin:0;
+    background:#fff;
+    height:100px;
+    margin-top:-60px;
+    position:relative;
+    z-index:6;
+    border-radius:0 0 60% 60% ;
+    box-shadow:1px 1px 10px #000;
+}
+nav ul{
+    list-style:none;
+    padding:0;
+}
+nav ul li{
+    font-size:20px;
+    margin-top:25px;
+    display:inline-block;
+    width:185px;
+    text-align:center;
+}
+#runner{
+    position: absolute;
+    top:50px;
+    opacity:0;
+    width:0px;
+    height:0px;
+    /*border-top:20px solid #f00;*/
+    border-right:20px solid transparent;
+    border-bottom:30px solid #ff3d00;
+    border-left:20px solid transparent;
+    transition:all 0.5s ease;
+}
+nav ul li:nth-of-type(1){
+    transform:translate(10px,-5px);
+}
+nav ul li:nth-of-type(1):hover ~ #runner{
+    margin:18px 0 0 80px;
+    opacity:1.0;
+}
+nav ul li:nth-of-type(2){
+    transform:translate(0,10px);
+}
+nav ul li:nth-of-type(2):hover ~ #runner{
+    margin:30px 0 0 260px;
+    opacity:1.0;
+}
+nav ul li:nth-of-type(3){
+    transform:translate(0,15px);
+}
+nav ul li:nth-of-type(3):hover ~ #runner{
+    margin:36px 0 0 453px;
+    opacity:1.0;
+}
+nav ul li:nth-of-type(4){
+    transform:translate(0,18px);
+}
+nav ul li:nth-of-type(4):hover ~ #runner{
+    margin:38px 0 0 643px;
+    opacity:1.0;
+}
+nav ul li:nth-of-type(5){
+    transform:translate(0,17px);
+}
+nav ul li:nth-of-type(5):hover ~ #runner{
+    margin:38px 0 0 830px;
+    opacity:1.0;
+}
+nav ul li:nth-of-type(6){
+    transform:translate(0,10px);
+}
+nav ul li:nth-of-type(6):hover ~ #runner{
+    margin:28px 0 0 1020px;
+    opacity:1.0;
+}
+nav ul li:nth-of-type(7){
+    transform:translate(0,1px);
+}
+nav ul li:nth-of-type(7):hover ~ #runner{
+    margin:15px 0 0 1220px;
+    opacity:1.0;
+}
+nav ul li:hover{
+    color:#000;
+}
+nav ul li a{
+    text-decoration:none;
+    line-height:60px;
+    color:#00ffcc;
+    transition:all 0.5s ease;
+}
+nav ul li a:hover{
+    color:rgb(125,0,0);
+    text-shadow:1px 1px 20px #ff0000;
+}
