@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
     <title>Navbar Cart</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="Navbar Card.css" rel="stylesheet">
@@ -23,9 +22,6 @@
 	</div>
 	</div>
 </div>
-
-
-
 
 <!-- Here is the start of the snippet -->
 <div id="peek-nav">
