@@ -1,0 +1,94 @@
+body {
+	background-color: transparent;
+	color: #fff;
+}
+
+html {
+	background:
+		url('http://wavemaker.co.uk/themes/Wavemaker/assets/images/bg.jpg')
+		no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/*Below this is the PEEK CSS you will need- you can ignore all above this*/
+#peek-nav {
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	min-width: 50px;
+	font-family: "Raleway", sans-serif;
+	color: #222;
+	padding: 10px;
+}
+
+#peek-nav-toggle {
+	-webkit-transition: .5s ease-out;
+	-moz-transition: .5s ease-out;
+	transition: .5s ease-out;
+	width: 30px;
+	height: 30px;
+}
+
+#peek-nav:hover>#peek-nav-toggle {
+	-webkit-transform: rotateZ(360deg);
+	-moz-transform: rotateZ(360deg);
+	transform: rotateZ(360deg);
+}
+
+#peek-nav-container {
+	white-space: nowrap;
+	opacity: 0;
+	max-height: 0px;
+	max-width: 0px;
+	overflow: hidden;
+	transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+}
+
+#peek-nav-container>ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#peek-nav-container>ul>li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#peek-nav-container>ul>li>a {
+	color: #888;
+	padding: 5px;
+	text-decoration: none;
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+#peek-nav-container>ul>li>a:hover {
+	color: #222;
+	text-decoration: none;
+	border-bottom: 1px solid #ccc;
+	background-color: #fff;
+}
+
+#peek-nav:hover>#peek-nav-container {
+	max-height: 1000px;
+	max-width: 1000px;
+	overflow: visible;
+	opacity: 1;
+}
+
+#peek-nav:hover {
+	background-color: #fff;
+	background-color: rgba(255, 255, 255, 0.7);
+	border-right: 1px solid #efefef;
+	border-bottom: 1px solid #efefef;
+}
