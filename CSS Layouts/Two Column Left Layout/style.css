@@ -1,0 +1,43 @@
+*{
+   margin:0px;
+   padding::0px;
+}#mainBody {
+	background-color: #990000;
+	background-image: url(../../../Downloads/Web%20Work/Responsive%20Images/glass-565914_640.jpg);
+	height: 1000px;
+	width: 100%;
+}
+#wrapper {
+	background-color: #99FF00;
+	height: 1000px;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+#header {
+	background-color: #00FFCC;
+	height: 200px;
+	width: 100%;
+}
+#content {
+	background-color: #CC6600;
+	height: 700px;
+	width: 100%;
+}
+#footer {
+	background-color: #FFFF00;
+	height: 100px;
+	width: 100%;
+}
+.content {
+	background-color: #FF6633;
+	float: left;
+	height: 700px;
+	width: 70%;
+}
+.left {
+	background-color: #0099FF;
+	float: left;
+	height: 700px;
+	width: 30%;
+}
