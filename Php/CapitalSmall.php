@@ -32,4 +32,3 @@ Reverse : <input type="text" name="outp" id="input1" value="<?php echo $number; 
 </table>
 </body>
 </body>
-
